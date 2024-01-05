@@ -22,7 +22,7 @@ for r in reversed(array):
 r_std = None
 l_std = None
 while True:
-    # 先頭に戻るとrightとleftは初期化される
+    # 先頭に戻るとrightとleftは以下のように初期化される
     right = len(array) - 1
     left = 0     
 
